@@ -1,0 +1,1 @@
+// Interfaces/IAnnotationService.cs\nusing System.Collections.Generic;\npublic interface IAnnotationService\n{\n    IEnumerable<Annotation> GetAll();\n    void Add(Annotation annotation);\n}
