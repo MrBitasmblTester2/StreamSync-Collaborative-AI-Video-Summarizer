@@ -1,0 +1,2 @@
+// Program.cs
+using Microsoft.AspNetCore.Builder;\nusing Microsoft.Extensions.DependencyInjection;\nvar builder = WebApplication.CreateBuilder(args);\n// TODO: register services\nvar app = builder.Build();\napp.MapControllers();\napp.Run();
