@@ -1,0 +1,1 @@
+// Controllers/AnnotationController.cs\nusing Microsoft.AspNetCore.Mvc;\n[ApiController]\n[Route("api/annotations")]\npublic class AnnotationController : ControllerBase\n{\n    // TODO: CRUD for annotations per timestamp\n}
