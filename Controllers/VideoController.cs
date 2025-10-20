@@ -1,0 +1,1 @@
+// Controllers/VideoController.cs\nusing Microsoft.AspNetCore.Mvc;\n[ApiController]\n[Route("api/videos")]\npublic class VideoController : ControllerBase\n{\n    // TODO: upload/link video endpoint\n}
