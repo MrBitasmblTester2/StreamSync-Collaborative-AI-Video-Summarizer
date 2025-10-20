@@ -1,0 +1,1 @@
+// Models/Annotation.cs\npublic class Annotation\n{\n    public int Id { get; set; }\n    public string UserId { get; set; }\n    public double Timestamp { get; set; }\n    public string Text { get; set; }\n}
