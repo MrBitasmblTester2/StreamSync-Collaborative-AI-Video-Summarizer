@@ -1,0 +1,1 @@
+// Services/AiClient.cs\nusing System.Net.Http;\nusing System.Net.Http.Json;\npublic class AiClient\n{\n    private readonly HttpClient _http;\n    public AiClient(HttpClient http) => _http = http;\n    public async Task<object> TranscribeAsync(Stream video)\n    {\n        // TODO: call /transcribe\n        return null;\n    }\n}
