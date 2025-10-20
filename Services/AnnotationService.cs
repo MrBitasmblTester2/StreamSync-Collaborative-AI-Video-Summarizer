@@ -1,0 +1,1 @@
+// Services/AnnotationService.cs\nusing System.Collections.Generic;\npublic class AnnotationService : IAnnotationService\n{\n    private readonly List<Annotation> _store = new();\n    public IEnumerable<Annotation> GetAll() => _store;\n    public void Add(Annotation a) => _store.Add(a);\n}
