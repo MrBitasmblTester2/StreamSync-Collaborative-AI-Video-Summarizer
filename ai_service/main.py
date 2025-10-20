@@ -1,0 +1,1 @@
+# main.py\nfrom fastapi import FastAPI, UploadFile\nfrom models import load_models, transcribe, summarize\napp = FastAPI()\nmodels = load_models()\n@app.post('/transcribe')\nasync def transcribe_endpoint(file: UploadFile):\n    return await transcribe(models, file)\n@app.post('/summarize')\nasync def summarize_endpoint(text: str):\n    return summarize(models, text)
