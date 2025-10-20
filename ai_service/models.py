@@ -1,0 +1,1 @@
+# models.py\nimport torch\n# TODO: load Whisper & LLM\ndef load_models():\n    return {}\ndef transcribe(models, file):\n    # TODO\n    return {}\ndef summarize(models, text):\n    # TODO\n    return {}
