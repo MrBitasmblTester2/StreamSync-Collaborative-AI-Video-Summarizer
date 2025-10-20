@@ -1,0 +1,1 @@
+# Dockerfile\nFROM mcr.microsoft.com/dotnet/aspnet:6.0\nWORKDIR /app\nCOPY . .\nEXPOSE 80\nENTRYPOINT ["dotnet", "StreamSync.dll"]
